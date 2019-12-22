@@ -49,7 +49,7 @@ function App() {
             </Layout.Content>
             </Layout>
         </Switch>
-        <Layout.Footer style={{ margin: '0 16px 0 16px',height:'15vh',textAlign: 'center' }}>Portafolio ©2019 Created by JuanDiegost with ☕ and ❤️</Layout.Footer>
+        <Layout.Footer style={{ margin: '0 16px 0 16px',height:'15vh',textAlign: 'center' }}>Portafolio ©2019 Created by JuanDiegost with <span role="img" aria-label="coffe">☕</span> and <span role="img" aria-label="heart">❤️</span></Layout.Footer>
       </Layout>
       </Router>
     </div>
