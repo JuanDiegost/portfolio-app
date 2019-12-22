@@ -1,0 +1,14 @@
+h1 {
+  color: #003a8c;
+  font-weight: 700;
+}
+
+p {
+  text-align: justify;
+  font-size: larger;
+  line-height: 1.6;
+}
+
+img {
+  width: 100%;
+}

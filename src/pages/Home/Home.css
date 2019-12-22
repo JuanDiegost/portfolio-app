@@ -1,0 +1,36 @@
+.home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image {
+    height: 30%;
+    width: auto;
+    margin-top: 50px;
+}
+
+.programmer {
+    width: 100%;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+.name {
+    font-weight: 700;
+    color: hsl(0, 0%, 13%);
+}
+
+.hello {
+    font-weight: 400;
+    color: hsl(0, 0%, 45%);
+}
+
+.title {
+    font-weight: 400;
+    color: hsl(0, 0%, 29%);
+}
