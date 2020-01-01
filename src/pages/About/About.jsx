@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css'
 import { Row, Col } from 'antd';
-import Developer from '../../assets/developer.jpg';
+import Programmers from '../../assets/developer.webp';
 
 export default function About() {
   return (
@@ -22,7 +22,7 @@ export default function About() {
           </p>
         </Col>
         <Col span={12}>
-          <img src={Developer} alt="Desarrollo en equipo ilustración"/>
+          <img src={Programmers} alt="Desarrollo en equipo ilustración"/>
         </Col>
       </Row>
     </div>
