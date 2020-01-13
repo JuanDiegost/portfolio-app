@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 
 import { Menu, Icon } from 'antd';
 
@@ -28,17 +27,16 @@ export default function Header() {
     <Menu
       defaultSelectedKeys={['home']}
       defaultOpenKeys={['sub1']}
-      mode="inline"
+      mode="horizontal"
       theme="dark"
       inlineCollapsed={collapsed}
-      >
-        {menu.map((item) => (
-          <Menu.Item key={item.key}>
-            <Icon type={item.icon} />
-            <span>{item.title}</span>
-            <Link to={item.url}>.</Link>
-          </Menu.Item>
-        ))}
+    >
+      {menu.map((item) => (
+        <Menu.Item key={item.key}>
+          <Icon type={item.icon} />
+          <span>{item.title}</span>
+        </Menu.Item>
+      ))}
     </Menu>
 
   );

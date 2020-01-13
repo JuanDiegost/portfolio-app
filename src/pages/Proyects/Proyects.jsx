@@ -3,7 +3,7 @@ import React from 'react';
 export default function Proyects() {
   return (
     <div>
-      Proyects
+      <h2>Proyetos grandes</h2>
     </div>
   );
 }
