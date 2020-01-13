@@ -17,24 +17,5 @@ p {
     border-radius: 5px;
     box-shadow: 0 4px 6px 0 hsl(0, 0%, 0%, 20%);
     margin-bottom: 20px;
-}
 
-.frontend {
-    border-top: 6px solid #40A4F4;
-}
-
-.backend {
-    border-top: 6px solid #F80000;
-}
-
-.movil {
-    border-top: 6px solid #78C257;
-}
-
-.devOps {
-    border-top: 6px solid #FF9900;
-}
-
-.other {
-    border-top: 6px solid #333;
 }

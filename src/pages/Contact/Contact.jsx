@@ -11,7 +11,7 @@ export default function Contact() {
       <Row type="flex" justify="center">
         {socialMedia.map((social) => (
           // eslint-disable-next-line jsx-a11y/control-has-associated-label
-          <a href={social.url} key={social.type} style={{ backgroundColor: social.color }} target="_blank" rel="noopener noreferrer"><Icon type={social.type} /></a>
+          <a className="social-link" href={social.url} key={social.type} style={{ backgroundColor: social.color }} target="_blank" rel="noopener noreferrer"><Icon type={social.type} /></a>
         ))}
       </Row>
     </div>
