@@ -1,4 +1,5 @@
 [![time tracker](https://wakatime.com/badge/github/JuanDiegost/portfolio-app.svg)](https://wakatime.com/badge/github/JuanDiegost/portfolio-app)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/416672e7-ae9d-40b3-9eb3-f2917a655cdf/deploy-status)](https://app.netlify.com/sites/nostalgic-brown-306816/deploys)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
