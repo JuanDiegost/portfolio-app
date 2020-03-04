@@ -7,7 +7,7 @@ export default function Proyect(props) {
   return (
     <Col
       span={24}
-      md={{ span: 10, push: 1 }}
+      md={{ span: 10 }}
     >
       <Card className="card backend">
         <h3>{proyect.name}</h3>
@@ -35,8 +35,9 @@ export default function Proyect(props) {
         </Row>
         <p>Links de soporte</p>
         <Row>
-          {proyect.links.map((link) => (
-            <Col span={9}>
+          {proyect.links.map((link, index) => (
+            // eslint-disable-next-line react/no-array-index-key
+            <Col span={24} md={{ span: 10 }} key={index} style={{ marginBottom: '5px' }}>
               <a
                 href={link.url}
                 key={link.name}

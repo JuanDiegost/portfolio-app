@@ -1,8 +1,9 @@
 import React from 'react';
 import { Row } from 'antd';
 import {
-  FaJava, FaAngular, FaDatabase, FaYoutube, FaGithub,
+  FaJava, FaAngular, FaDatabase, FaYoutube, FaGithub, FaAws,
 } from 'react-icons/fa';
+import { MdWeb } from 'react-icons/md';
 import { IoIosDocument } from 'react-icons/io';
 import Proyect from '../../components/Proyect';
 
@@ -41,7 +42,7 @@ export default function Proyects() {
     }, {
       name: 'Video Demo',
       icon: <FaYoutube />,
-      url: '',
+      url: 'https://youtu.be/az3Ps30yTKA',
     }, {
       name: 'Codigo Backend',
       icon: <FaGithub />,
@@ -50,6 +51,39 @@ export default function Proyects() {
       name: 'Codigo Frontend',
       icon: <FaGithub />,
       url: 'https://github.com/JuanDiegost/Alumno-Body-Fitness-Gym',
+    }],
+  }, {
+    name: 'Matematicas Profe ALex',
+    tecnologies: [{
+      name: 'java Spring Boot',
+      icon: <FaJava />,
+    }, {
+      name: 'Angular',
+      icon: <FaAngular />,
+    }, {
+      name: 'Mysql',
+      icon: <FaDatabase />,
+    },
+    {
+      name: 'AWS',
+      icon: <FaAws />,
+    }],
+    linkVideo: 'ht',
+    description: 'Plataforma web para el Youtuber Matemáticas profe Alex, en donde los estudiantes se pueden registrar, realizar preguntas y aprender matemáticas con los cursos de este docente.',
+    moduls: [{
+      name: 'Módulos alumno',
+      items: ['Sesión de usuario', 'Realizar preguntas, responderlas y reportarlas', 'Buscar cursos'],
+    }, {
+      name: 'Módulo Administrador',
+      items: ['Responder las preguntas',
+        'Importar los video del canal',
+        'Gestionar preguntas',
+      ],
+    }],
+    links: [{
+      name: 'Pagina Online',
+      icon: <MdWeb />,
+      url: 'https://matematicasprofealex.com/',
     }],
   }];
 

@@ -1,8 +1,20 @@
 .social-link {
-    color: white;
-    padding: 20px;
-    margin: 20px;
     border-radius: 50%;
-    font-size: 20px;
-    font-weight: 700;
+    color: #fff;
+    height: 4em;
+    position: relative;
+    width: 4em;
+    margin: 1em;
+}
+
+.circle-icon {
+    fill: currentColor;
+    height: 50%;
+    left: 50%;
+    position: absolute;
+    stroke: currentColor;
+    stroke-width: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
 }
